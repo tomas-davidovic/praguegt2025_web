@@ -245,23 +245,8 @@ var yearElement = document.getElementById("year");
 
 /* END získání aktuálního roku */
 
-
-// získání aktuálního roku od roku 1999
-    function calculateAge() {
-        const today = new Date();
-        const birthYear = 1999;
-        const age = today.getFullYear() - birthYear;
-        return age;
-      }
-      
-      const ageElement = document.getElementById("age");
-      const age = calculateAge();
-      ageElement.textContent = age;
- 
-/* END získání aktuálního roku 1999*/
-
 // LOADER ON START //
-$('body').append('<div style="" id="loadingDiv"><div class="loader_txt">Loading<div class="loader"></div></div></div>');
+$('body').append('<div style="" id="loadingDiv"><div class="loader_txt">Načítám obsah...<div class="loader"></div></div></div>');
 $(window).on('load', function() {
   setTimeout(removeLoader, 500); // Wait for page load plus two seconds.
 });

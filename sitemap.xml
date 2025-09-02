@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    
+    <url>
+        <loc>https://praguegt.com</loc>
+            <image:image>
+              <image:loc>https://praguegt.com/assets/img/praguegt_40k.jpg</image:loc>
+            </image:image>
+    </url>
+    
+    <url>
+        <loc>https://praguegt.com/warhammer40k.html</loc>
+        <lastmod>2025-01-12T11:00:15+00:00</lastmod>
+    </url>
+
+    <url>
+        <loc>https://praguegt.com/oldworld.html</loc>
+        <lastmod>2025-01-12T11:00:15+00:00</lastmod>
+    </url>
+
+    <url>
+        <loc>https://praguegt.com/en/warhammer40k_en.html</loc>
+        <image:image>
+              <image:loc>https://praguegt.com/assets/img/united-kingdom.png</image:loc>
+            </image:image>
+        <lastmod>2025-01-12T11:00:15+00:00</lastmod>
+    </url>
+
+
+</urlset>
