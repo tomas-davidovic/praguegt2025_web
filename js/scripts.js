@@ -18,7 +18,7 @@ navLinks.forEach(link => {
 /* TIPING TEXT */
 
 var typed = new Typed(".profesion_text", {
-    strings: [ "27/09-28/09/2025", "27/09-28/09/2025", "27/09-28/09/2025" ],
+    strings: [ "07/03-08/03/2026", "07/03-08/03/2026", "07/03-08/03/2026" ],
     typeSpeed: 30,
     backSpeed: 30,
     loop: true,

@@ -156,7 +156,7 @@ h6 {
 
 .button {
   max-width: 100%;
-  width: 205px;
+  width: 250px;
   padding: 14px 40px;
   background-color: #1B273B;
   border: 1px solid #6ca6d8;
@@ -534,6 +534,13 @@ h6 {
   font-weight: normal;
   color: #ffffff;
   text-shadow: 0px 0px 5px #1d1d1d94;
+}
+
+.search_title {
+  font-size: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  visibility: hidden;
 }
 .typing_text {
   width: 335px;
