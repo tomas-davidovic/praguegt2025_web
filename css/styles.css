@@ -14,23 +14,27 @@ img {
   pointer-events: none;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-  
-}
-
 li {
   list-style: none;
 }
 
-a,
 img,
 span,
 button,
 input,
 i {
   display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.registration-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .span_link
