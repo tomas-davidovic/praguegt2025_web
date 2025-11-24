@@ -245,19 +245,6 @@ var yearElement = document.getElementById("year");
 
 /* END získání aktuálního roku */
 
-// LOADER ON START //
-$('body').append('<div style="" id="loadingDiv"><div class="loader_txt">Načítám obsah...<div class="loader"></div></div></div>');
-$(window).on('load', function() {
-  setTimeout(removeLoader, 500); // Wait for page load plus two seconds.
-});
-
-function removeLoader() {
-  $("#loadingDiv").fadeOut(500, function() {
-    // FadeOut complete. Remove the loading div.
-    $("#loadingDiv").remove(); // Makes page more lightweight.
-  });
-}
-
 // FULLSCREEN  //
 
 // Get all the image holders
